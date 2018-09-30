@@ -12,31 +12,117 @@
 
 <body>
 
-	<nav>
+	<header>
+		<div id="header-logo">
+			<a href="index.php" id="button-logo-header">
+				<div id="platyphant-icon">
+					<img src="assets/images/platyphant-logo-icon.svg" alt="Platyphant - Creative Jungle">
+				</div>
+				<div id="platyphant-logotype">
+					<img src="assets/images/platyphant-logo-creative-jungle-logotype.svg" alt="Platyphant - Creative Jungle">
+				</div>
+			</a>
+		</div>
+		<nav>
+			<a href="#services" class="scroll">Services</a>
+			<a href="#network" class="scroll">Our network</a>
+			<a href="#our-work" class="scroll">Our work</a>
+			<a href="javascript:void(0);">Blog</a>
+			<a href="#contact" class="scroll">Contact</a>
+			<a href="javascript:void(0);" class="cta-1">Let's work together</a>
+		</nav>
+	</header>
 
-	</nav>
+	<!-- HERO -->
+	<section id="hero">
+		<div class="inner-area">
+			<!-- next section button -->
+			<a class="next-section scroll" href="#services"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 126.7 198" style="enable-background:new 0 0 126.7 198;" xml:space="preserve"><path d="M56.3,195.1L2.9,141.7C1,139.7,0,137.2,0,134.6s1-5.1,2.9-7.1c3.9-3.9,10.2-3.9,14.1,0L53.4,164V10c0-5.5,4.5-10,10-10s10,4.5,10,10v154l36.4-36.4c3.9-3.9,10.2-3.9,14.1,0c3.9,3.9,3.9,10.2,0,14.1l-53.4,53.4C66.5,199,60.2,199,56.3,195.1z"/></svg></a>
+			<!-- next section button end -->
+			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus nec purus sed elit feugiat condimentum facilisis et metus. Donec scelerisque ullamcorper justo a fringilla. Nam tempor commodo consequat. Integer euismod, sapien scelerisque tempus tempus, libero est ullamcorper justo, eu finibus lorem augue sit amet eros. Quisque quis suscipit justo. Aliquam sed sagittis tortor. Sed pharetra orci mi, a placerat velit cursus quis. Nam eget diam luctus, pulvinar nisl non, vehicula velit. Vivamus dolor justo, tempus et sodales ac, ultrices vitae enim. Maecenas ac dolor sed nunc pretium rhoncus. Etiam interdum eu ligula ac semper. Sed ut erat porttitor orci mattis cursus sed fermentum libero. Aliquam ac leo vel ex congue tincidunt. In eleifend ligula nunc, eget dignissim lectus blandit in.</p>
+		</div>
+	</section>
 
-	<section>
+	<!-- SERVICES -->
+	<section id="services">
+		<!-- Title -->
+		<div class="section-title-h3">
+			<h3>What we do</h3>
+		</div>
+		<!-- Title end -->
+		<div class="inner-area">
+			<!-- next section button -->
+			<a class="next-section scroll" href="#network"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 126.7 198" style="enable-background:new 0 0 126.7 198;" xml:space="preserve"><path d="M56.3,195.1L2.9,141.7C1,139.7,0,137.2,0,134.6s1-5.1,2.9-7.1c3.9-3.9,10.2-3.9,14.1,0L53.4,164V10c0-5.5,4.5-10,10-10s10,4.5,10,10v154l36.4-36.4c3.9-3.9,10.2-3.9,14.1,0c3.9,3.9,3.9,10.2,0,14.1l-53.4,53.4C66.5,199,60.2,199,56.3,195.1z"/></svg></a>
+			<!-- next section button end -->
+			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus nec purus sed elit feugiat condimentum facilisis et metus. Donec scelerisque ullamcorper justo a fringilla. Nam tempor commodo consequat. Integer euismod, sapien scelerisque tempus tempus, libero est ullamcorper justo, eu finibus lorem augue sit amet eros. Quisque quis suscipit justo. Aliquam sed sagittis tortor. Sed pharetra orci mi, a placerat velit cursus quis. Nam eget diam luctus, pulvinar nisl non, vehicula velit. Vivamus dolor justo, tempus et sodales ac, ultrices vitae enim. Maecenas ac dolor sed nunc pretium rhoncus. Etiam interdum eu ligula ac semper. Sed ut erat porttitor orci mattis cursus sed fermentum libero. Aliquam ac leo vel ex congue tincidunt. In eleifend ligula nunc, eget dignissim lectus blandit in.</p>
+		</div>
+	</section>
+
+	<!-- OUR NETWORK -->
+	<section id="network">
+		<!-- Title -->
+		<div class="section-title-h3">
+			<h3>Our network</h3>
+		</div>
+		<!-- Title end -->
+		<div class="inner-area">
+			<!-- next section button -->
+			<a class="next-section scroll" href="#our-work"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 126.7 198" style="enable-background:new 0 0 126.7 198;" xml:space="preserve"><path d="M56.3,195.1L2.9,141.7C1,139.7,0,137.2,0,134.6s1-5.1,2.9-7.1c3.9-3.9,10.2-3.9,14.1,0L53.4,164V10c0-5.5,4.5-10,10-10s10,4.5,10,10v154l36.4-36.4c3.9-3.9,10.2-3.9,14.1,0c3.9,3.9,3.9,10.2,0,14.1l-53.4,53.4C66.5,199,60.2,199,56.3,195.1z"/></svg></a>
+			<!-- next section button end -->
+			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus nec purus sed elit feugiat condimentum facilisis et metus. Donec scelerisque ullamcorper justo a fringilla. Nam tempor commodo consequat. Integer euismod, sapien scelerisque tempus tempus, libero est ullamcorper justo, eu finibus lorem augue sit amet eros. Quisque quis suscipit justo. Aliquam sed sagittis tortor. Sed pharetra orci mi, a placerat velit cursus quis. Nam eget diam luctus, pulvinar nisl non, vehicula velit. Vivamus dolor justo, tempus et sodales ac, ultrices vitae enim. Maecenas ac dolor sed nunc pretium rhoncus. Etiam interdum eu ligula ac semper. Sed ut erat porttitor orci mattis cursus sed fermentum libero. Aliquam ac leo vel ex congue tincidunt. In eleifend ligula nunc, eget dignissim lectus blandit in.</p>
+		</div>
+	</section>
+
+	<!-- CASE STUDIES -->
+	<section id="our-work">
+		<!-- Title -->
+		<div class="section-title-h3">
+			<h3>Our work</h3>
+		</div>
+		<!-- Title end -->
+		<div class="inner-area">
+			<!-- next section button -->
+			<a class="next-section scroll" href="#about-us"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 126.7 198" style="enable-background:new 0 0 126.7 198;" xml:space="preserve"><path d="M56.3,195.1L2.9,141.7C1,139.7,0,137.2,0,134.6s1-5.1,2.9-7.1c3.9-3.9,10.2-3.9,14.1,0L53.4,164V10c0-5.5,4.5-10,10-10s10,4.5,10,10v154l36.4-36.4c3.9-3.9,10.2-3.9,14.1,0c3.9,3.9,3.9,10.2,0,14.1l-53.4,53.4C66.5,199,60.2,199,56.3,195.1z"/></svg></a>
+			<!-- next section button end -->
+			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus nec purus sed elit feugiat condimentum facilisis et metus. Donec scelerisque ullamcorper justo a fringilla. Nam tempor commodo consequat. Integer euismod, sapien scelerisque tempus tempus, libero est ullamcorper justo, eu finibus lorem augue sit amet eros. Quisque quis suscipit justo. Aliquam sed sagittis tortor. Sed pharetra orci mi, a placerat velit cursus quis. Nam eget diam luctus, pulvinar nisl non, vehicula velit. Vivamus dolor justo, tempus et sodales ac, ultrices vitae enim. Maecenas ac dolor sed nunc pretium rhoncus. Etiam interdum eu ligula ac semper. Sed ut erat porttitor orci mattis cursus sed fermentum libero. Aliquam ac leo vel ex congue tincidunt. In eleifend ligula nunc, eget dignissim lectus blandit in.</p>
+		</div>
+	</section>
+
+	<!-- ABOUT US -->
+	<section id="about-us">
+		<!-- Title -->
+		<div class="section-title-h3">
+			<h3>Platyphant</h3>
+		</div>
+		<!-- Title end -->
+		<div class="inner-area">
+			<!-- next section button -->
+			<a class="next-section scroll" href="#contact"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 126.7 198" style="enable-background:new 0 0 126.7 198;" xml:space="preserve"><path d="M56.3,195.1L2.9,141.7C1,139.7,0,137.2,0,134.6s1-5.1,2.9-7.1c3.9-3.9,10.2-3.9,14.1,0L53.4,164V10c0-5.5,4.5-10,10-10s10,4.5,10,10v154l36.4-36.4c3.9-3.9,10.2-3.9,14.1,0c3.9,3.9,3.9,10.2,0,14.1l-53.4,53.4C66.5,199,60.2,199,56.3,195.1z"/></svg></a>
+			<!-- next section button end -->
+			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus nec purus sed elit feugiat condimentum facilisis et metus. Donec scelerisque ullamcorper justo a fringilla. Nam tempor commodo consequat. Integer euismod, sapien scelerisque tempus tempus, libero est ullamcorper justo, eu finibus lorem augue sit amet eros. Quisque quis suscipit justo. Aliquam sed sagittis tortor. Sed pharetra orci mi, a placerat velit cursus quis. Nam eget diam luctus, pulvinar nisl non, vehicula velit. Vivamus dolor justo, tempus et sodales ac, ultrices vitae enim. Maecenas ac dolor sed nunc pretium rhoncus. Etiam interdum eu ligula ac semper. Sed ut erat porttitor orci mattis cursus sed fermentum libero. Aliquam ac leo vel ex congue tincidunt. In eleifend ligula nunc, eget dignissim lectus blandit in.</p>
+		</div>
+	</section>
+
+	<!-- CONTACT -->
+	<section id="contact">
 
 	</section>
 
-	<h1>Lorem ipsum dolor</h1>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consequat turpis laoreet aliquam volutpat. Aenean dui elit, venenatis eget accumsan a, lacinia et enim. <a href="http://vcburnett.com">Mauris sodales mi vel</a> accumsan aliquam. Donec ultricies blandit tellus, at iaculis est porttitor nec. Integer condimentum sapien id leo iaculis, eu convallis arcu blandit. Integer volutpat auctor finibus. Integer non sollicitudin erat. Integer id nisl ut odio vulputate tincidunt sed vitae libero. Quisque quis orci eget massa dapibus euismod. Sed in ex at lectus mollis vestibulum vel non nulla. Integer at orci et risus fermentum vehicula consequat eget velit.</p>
-	<p>Quisque laoreet ultrices diam eu ornare. Etiam risus magna, pretium non interdum vel, vehicula eget urna. Proin fringilla molestie pulvinar. Etiam eu placerat mi, vel finibus nunc. Nam mollis, tellus vitae malesuada blandit, leo dolor congue risus, luctus ultrices libero tellus vitae neque. Pellentesque lacinia malesuada dolor ac fringilla. Ut congue felis sit amet urna placerat fringilla. Nullam facilisis lobortis est, at condimentum felis consectetur a. Suspendisse et orci in odio viverra eleifend id quis nunc.</p>
-	<h3>This is a h3</h3>
-	<h2>Nullam facilisis lobortis est, at condimentum felis consectetur a.</h2>
-	<p>Etiam eget aliquam est, at lobortis quam. Quisque rutrum facilisis metus, ut congue tortor pellentesque sit amet. Mauris quis velit dolor. Proin varius pulvinar nibh. Maecenas a ante lacinia, sodales leo ut, viverra nulla. Nam a nisi vitae risus scelerisque molestie. Donec dignissim quam quis risus dictum, sit amet tempor erat posuere.</p>
-	<p>Integer gravida lectus ac neque iaculis pharetra. Integer velit ipsum, finibus et molestie id, iaculis et risus. Vivamus tristique quam eros, eu varius libero dapibus sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur a risus venenatis, volutpat odio vel, egestas felis. Duis sollicitudin scelerisque felis vitae accumsan. Nam sed nulla sed libero imperdiet semper non at velit. Morbi sed lobortis ante. Praesent consectetur feugiat eros, imperdiet malesuada mi pretium eget. Sed pharetra metus at turpis pellentesque, nec placerat tellus convallis. Praesent posuere eget dui eget egestas. Sed eu velit elit. Aliquam vel purus quis mi blandit commodo dignissim eget dui. Quisque libero nulla, tincidunt ut quam ut, pretium eleifend dolor. Quisque sit amet semper metus.</p>
-	<p>Fusce vitae enim consectetur, lacinia sapien ut, congue leo. Donec orci dolor, consequat quis ex faucibus, sodales ultricies mi. Maecenas porta ornare ipsum a pharetra. Fusce ultrices eros vitae venenatis consectetur. Curabitur dictum est sit amet nisl ultrices commodo. Aenean gravida est urna, sit amet malesuada quam gravida nec. Proin id lectus congue, sagittis lectus ut, euismod neque. Proin mi magna, pharetra sed congue ac, venenatis nec ex. Aenean vestibulum, nunc vitae dapibus bibendum, massa risus tincidunt ante, sed finibus metus urna a augue. Vivamus tempus diam nisi, sit amet faucibus ex maximus nec. Nam molestie pretium accumsan. Etiam nec metus ex. Vivamus viverra mi sapien, a porta leo hendrerit eget. Nam consequat fermentum magna in molestie.</p>
-	<a class="more-info" href="http://google.com">More info <span class="link-arrow"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 198 126.7" xml:space="preserve" style="enable-background:new 0 0 198 126.7;"><path d="M195.1,70.4l-53.4,53.4c-1.9,1.9-4.5,2.9-7.1,2.9s-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1L164,73.3H10c-5.5,0-10-4.5-10-10s4.5-10,10-10h154L127.6,17c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l53.4,53.4C199,60.2,199,66.5,195.1,70.4z"/></svg></span></a>
-	<p>Integer gravida lectus ac neque iaculis pharetra. Integer velit ipsum, finibus et molestie id, iaculis et risus. Vivamus tristique quam eros, eu varius libero dapibus sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur a risus venenatis, volutpat odio vel, egestas felis. Duis sollicitudin scelerisque felis vitae accumsan. Nam sed nulla sed libero imperdiet semper non at velit. Morbi sed lobortis ante. Praesent consectetur feugiat eros, imperdiet malesuada mi pretium eget. Sed pharetra metus at turpis pellentesque, nec placerat tellus convallis. Praesent posuere eget dui eget egestas. Sed eu velit elit. Aliquam vel purus quis mi blandit commodo dignissim eget dui. Quisque libero nulla, tincidunt ut quam ut, pretium eleifend dolor. Quisque sit amet semper metus.</p>
-	<p>Fusce vitae enim consectetur, lacinia sapien ut, congue leo. Donec orci dolor, consequat quis ex faucibus, sodales ultricies mi. Maecenas porta ornare ipsum a pharetra. Fusce ultrices eros vitae venenatis consectetur. Curabitur dictum est sit amet nisl ultrices commodo. Aenean gravida est urna, sit amet malesuada quam gravida nec. Proin id lectus congue, sagittis lectus ut, euismod neque. Proin mi magna, pharetra sed congue ac, venenatis nec ex. Aenean vestibulum, nunc vitae dapibus bibendum, massa risus tincidunt ante, sed finibus metus urna a augue. Vivamus tempus diam nisi, sit amet faucibus ex maximus nec. Nam molestie pretium accumsan. Etiam nec metus ex. Vivamus viverra mi sapien, a porta leo hendrerit eget. Nam consequat fermentum magna in molestie.</p>
-	<a class="cta-1" href="http://google.com/">This is CTA 1</a>
-	<p>Integer gravida lectus ac neque iaculis pharetra. Integer velit ipsum, finibus et molestie id, iaculis et risus. Vivamus tristique quam eros, eu varius libero dapibus sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur a risus venenatis, volutpat odio vel, egestas felis. Duis sollicitudin scelerisque felis vitae accumsan. Nam sed nulla sed libero imperdiet semper non at velit. Morbi sed lobortis ante. Praesent consectetur feugiat eros, imperdiet malesuada mi pretium eget. Sed pharetra metus at turpis pellentesque, nec placerat tellus convallis. Praesent posuere eget dui eget egestas. Sed eu velit elit. Aliquam vel purus quis mi blandit commodo dignissim eget dui. Quisque libero nulla, tincidunt ut quam ut, pretium eleifend dolor. Quisque sit amet semper metus.</p>
-	<p>Fusce vitae enim consectetur, lacinia sapien ut, congue leo. Donec orci dolor, consequat quis ex faucibus, sodales ultricies mi. Maecenas porta ornare ipsum a pharetra. Fusce ultrices eros vitae venenatis consectetur. Curabitur dictum est sit amet nisl ultrices commodo. Aenean gravida est urna, sit amet malesuada quam gravida nec. Proin id lectus congue, sagittis lectus ut, euismod neque. Proin mi magna, pharetra sed congue ac, venenatis nec ex. Aenean vestibulum, nunc vitae dapibus bibendum, massa risus tincidunt ante, sed finibus metus urna a augue. Vivamus tempus diam nisi, sit amet faucibus ex maximus nec. Nam molestie pretium accumsan. Etiam nec metus ex. Vivamus viverra mi sapien, a porta leo hendrerit eget. Nam consequat fermentum magna in molestie.</p>
-	<a class="cta-2" href="http://google.com/">Thi sis CTA 2</a> <a class="cta-1" href="http://google.com/">Now CTA 1</a>
-	<p>Integer gravida lectus ac neque iaculis pharetra. Integer velit ipsum, finibus et molestie id, iaculis et risus. Vivamus tristique quam eros, eu varius libero dapibus sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur a risus venenatis, volutpat odio vel, egestas felis. Duis sollicitudin scelerisque felis vitae accumsan. Nam sed nulla sed libero imperdiet semper non at velit. Morbi sed lobortis ante. Praesent consectetur feugiat eros, imperdiet malesuada mi pretium eget. Sed pharetra metus at turpis pellentesque, nec placerat tellus convallis. Praesent posuere eget dui eget egestas. Sed eu velit elit. Aliquam vel purus quis mi blandit commodo dignissim eget dui. Quisque libero nulla, tincidunt ut quam ut, pretium eleifend dolor. Quisque sit amet semper metus.</p>
-	<p>Fusce vitae enim consectetur, lacinia sapien ut, congue leo. Donec orci dolor, consequat quis ex faucibus, sodales ultricies mi. Maecenas porta ornare ipsum a pharetra. Fusce ultrices eros vitae venenatis consectetur. Curabitur dictum est sit amet nisl ultrices commodo. Aenean gravida est urna, sit amet malesuada quam gravida nec. Proin id lectus congue, sagittis lectus ut, euismod neque. Proin mi magna, pharetra sed congue ac, venenatis nec ex. Aenean vestibulum, nunc vitae dapibus bibendum, massa risus tincidunt ante, sed finibus metus urna a augue. Vivamus tempus diam nisi, sit amet faucibus ex maximus nec. Nam molestie pretium accumsan. Etiam nec metus ex. Vivamus viverra mi sapien, a porta leo hendrerit eget. Nam consequat fermentum magna in molestie.</p>
+	<!-- FOOTER -->
+	<footer>
+		<div id="footer-icon">
+			<img src="assets/images/platyphant-logo-icon.svg" alt="Platyphant - Creative Jungle">
+		</div>
+		<div id="footer-links">
+			<p>©2016-<?php echo date("Y"); ?><span class="ft-spacing">:</span>Platyphant<span class="ft-spacing">:</span>All right reserved<span class="ft-spacing">:</span><a href="privacey-policy.php">Privacy Policy</a></p>
+		</div>
+	</footer>
+
+
+	<!-- Scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="assets/js/scripts.js"></script>
 
 </body>
 </html>
