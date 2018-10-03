@@ -8,8 +8,18 @@ $( document ).ready(function() {
 	var browserH = browserWindow.height();
 	var browserW = browserWindow.width();
 
+	var sectionHero = $("section#hero");
+	var sectionServices = $("section#services");
+	var sectionNetwork = $("section#network");
+	var sectionWork = $("section#our-work");
+	var sectionAboutUs = $("section#about-us");
+	var sectionContact = $("section#contact");
+
 	function updateElements() {
-		console.log("moved!");
+		console.log("Working!");
+
+		// Home Page update sections
+		
 	}
 
 	// ON RESIZE

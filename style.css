@@ -2,19 +2,8 @@
 * {
 	box-sizing: border-box;
 }
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, button, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, button, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -24,8 +13,7 @@ time, mark, audio, video {
 	outline: none;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
@@ -37,8 +25,7 @@ ol, ul {
 blockquote, q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before, blockquote:after, q:before, q:after {
 	content: '';
 	content: none;
 }
@@ -68,6 +55,9 @@ html, body {
 p {
 	margin-bottom: .4em;
 }
+	.grey-title {
+		color: #b9b9b9;
+	}
 a {
 	text-decoration: underline;
 	color: #1a88ef;
@@ -86,14 +76,14 @@ a {
 		position: absolute;
 		box-sizing: content-box;
 		width: 11px;
-		padding: 1px 0 0 6px;
+		padding: 9px 0 0 6px;
 		fill: #1e7095;
 		-webkit-transition: .2s;
 		transition: .2s;
 	}
 		a.more-info:hover span.link-arrow {
 			fill: #a23141;
-			padding: 1px 0 0 9px;
+			padding: 9px 0 0 9px;
 		}
 a.cta-1, a.cta-2 {
 	color: #fff;
@@ -191,10 +181,9 @@ section {
 	.inner-area {
 		width: 100%;
 		height: 100%;
-		display: block;
+		display: table;
 		position: relative;
 		background-color: #fafafa;
-		padding: 3em;
 	}
 
 	.section-title-h3 {
@@ -203,13 +192,41 @@ section {
 		z-index: 10;
 	}
 
+	.section-wrapper {
+		width: 90%;
+		text-align: center;
+		display: block;
+		margin: 5em auto;
+		background-color: teal;
+	}
+		.section-left {
+			width: 40%;
+			text-align: left;
+			display: inline-block;
+			margin-right: 1em;
+			vertical-align: top;
+			background-color: red;
+		}
+		.section-right {
+			width: 40%;
+			text-align: left;
+			display: inline-block;
+			margin-left: 1em;
+			vertical-align: top;
+			background-color: fuchsia;
+		}
+		.section-single {
+
+		}
+
 /* -- Header -- */
 header {
 	width: 100%;
 	padding: 1.25em 85px;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
+	z-index: 50;
 }
 
 #header-logo {
@@ -236,7 +253,9 @@ header {
 		}
 
 nav {
+	font-size: .8em;
 	display: table;
+	padding-top: 4px;
 	float: right;
 }
 	nav a {
@@ -253,10 +272,25 @@ nav {
 			margin-right: 0;
 		}
 
+/* -- Hero -- */
+section#hero .inner-area {
+	background-color: #1e7095;
+}
+
+/* -- About Us -- */
+section#about-us .inner-area {
+	background-color: #1e7095;
+}
+
+/* -- Contact -- */
+section#contact .inner-area {
+	background-color: #161616;
+}
+
 /* -- Footer -- */
 footer {
 	width: 100%;
-	font-size: .6em;
+	font-size: .7em;
 	color: #aaa;
 	display: table;
 	padding: 1em 110px;
@@ -275,6 +309,7 @@ footer {
 		display: inline-block;
 		vertical-align: middle;
 		float: right;
+		padding-top: .6em;
 	}
 
 
