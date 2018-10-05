@@ -47,7 +47,7 @@ html, body {
 	height: 100%;
 	font-family: 'Lato', sans-serif;
 	font-size: 14px;
-	line-height: 22px;
+	line-height: 20px;
 	color: #333;
 	background-color: #f0f0f0;
 }
@@ -64,15 +64,15 @@ a {
 	-webkit-transition: .3s;
 	transition: .3s;
 }
-	a:hover {
+	a:hover, .portfolio-project:hover p.more-info {
 		color: #a23141;
 	}
-	a.more-info {
+	a.more-info, p.more-info {
 		font-size: .8em;
 		text-decoration: none;
 		position: relative;
 	}
-	span.link-arrow {
+	span.link-arrow, .portfolio-project p.more-info span.link-arrow {
 		position: absolute;
 		box-sizing: content-box;
 		width: 11px;
@@ -81,14 +81,20 @@ a {
 		-webkit-transition: .2s;
 		transition: .2s;
 	}
-		a.more-info:hover span.link-arrow {
+		.portfolio-project p.more-info span.link-arrow {
+			padding-top: 4px;
+		}
+		a.more-info:hover span.link-arrow, .portfolio-project:hover p.more-info span.link-arrow {
 			fill: #a23141;
 			padding: 9px 0 0 9px;
 		}
+			.portfolio-project:hover p.more-info span.link-arrow {
+				padding-top: 4px;
+			}
 a.cta-1, a.cta-2 {
 	color: #fff;
-	font-size: 1.1em;
-	line-height: 1.5em;
+	font-size: 1em;
+	line-height: 1.25em;
 	text-decoration: none;
 	text-transform: uppercase;
 	display: inline-block;
@@ -136,11 +142,11 @@ a.button-back, a.next-section {
 h1 {
 	font-family: 'Lato', sans-serif;
 	font-weight: 100;
-	font-size: 90px;
-	line-height: 84px;
+	font-size: 5.5em;
+	line-height: .9em;
 	text-transform: uppercase;
 	color: #1e7095;
-	margin-bottom: 40px;
+	margin-bottom: .35em;
 }
 h2 {
 	font-family: 'Bitter', serif;
@@ -180,7 +186,7 @@ section {
 }
 	.inner-area {
 		width: 100%;
-		height: 100%;
+		height: calc(100vh - 170px);
 		display: table;
 		position: relative;
 		background-color: #fafafa;
@@ -193,31 +199,32 @@ section {
 	}
 
 	.section-wrapper {
-		width: 90%;
+		width: 94%;
 		text-align: center;
 		display: block;
 		margin: 5em auto;
-		background-color: teal;
 	}
 		.section-left {
-			width: 40%;
+			width: 47%;
 			text-align: left;
 			display: inline-block;
 			margin-right: 1em;
 			vertical-align: top;
-			background-color: red;
 		}
 		.section-right {
-			width: 40%;
+			width: 47%;
 			text-align: left;
 			display: inline-block;
 			margin-left: 1em;
 			vertical-align: top;
-			background-color: fuchsia;
 		}
 		.section-single {
 
 		}
+			.cta-container {
+				margin-top: 1.75em;
+				display: block;
+			}
 
 /* -- Header -- */
 header {
@@ -284,8 +291,44 @@ section#about-us .inner-area {
 
 /* -- Contact -- */
 section#contact .inner-area {
+	padding: 0;
 	background-color: #161616;
 }
+	.contact-left {
+		width: 50%;
+		height: calc(100%);
+		display: inline-block;
+		vertical-align: top;
+	}
+	.contact-right {
+		width: 50%;
+		height: calc(100%);
+		display: inline-block;
+		vertical-align: top;
+	}
+		.contact-right form {
+			width: 100%;
+			display: block;
+		}
+		.contact-right .social-media {
+
+		}
+			.contact-right .social-media a {
+				width: 50px;
+				padding: 15px;
+				display: inline-block;
+				border-radius: 50%;
+				border: 1px solid #444;
+				fill: #444;
+				margin-right: 7px;
+			}
+				.contact-right .social-media a:last-child {
+					margin-right: 0;
+				}
+				.contact-right .social-media a:hover {
+					border: 1px solid #555;
+					fill: #ccc;
+				}
 
 /* -- Footer -- */
 footer {
@@ -313,6 +356,97 @@ footer {
 	}
 
 
+/* HOME PAGE */
+.hp-service, .hp-partners {
+	margin-bottom: 2em;
+}
+	.hp-service:last-child, .hp-partners:last-child {
+		margin: 0;
+	}
+	.hp-service-icon {
+		width: 56px;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.hp-partners-icon {
+		width: 220px;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.hp-service-content, .hp-partners-content {
+		width: calc(100% - 70px);
+		display: inline-block;
+		vertical-align: top;
+	}
+		.hp-partners-content {
+			width: calc(100% - 240px);
+		}
+
+.client-list {
+	width: 100%;
+	display: block;
+	margin-top: 2em;
+}
+	.client-list-wrapper {
+		width: 100%;
+		display: block;
+	}
+		.grey-title {
+			font-size: .75em;
+			line-height: 1.15em;
+			margin-bottom: 1.25em;
+		}
+		.client-list-logo {
+			width: 31%;
+			margin: 1% 1% 0 0;
+			display: inline-block;
+			border: 1px solid #ddd;
+		}
+.portfolio-gallery {
+	width: 50vw;
+	display: table;
+	padding: 0;
+	position: absolute;
+	z-index: 20;
+	overflow: hidden;
+	background-color: teal;
+}
+	.portfolio-gallery-wrapper {
+		width: 1515px;
+		display: block;
+		position: relative;
+	}
+		.portfolio-project {
+			color: #333;
+			text-decoration: none;
+			width: 250px;
+			background-color: #fff;
+			display: inline-block;
+			padding: 0;
+			margin: 0 50px 0 0;
+			position: relative;
+			top: 0;
+			border-radius: 4px;
+			overflow: hidden;
+			box-shadow: 0 3px 4px rgba(0,3,0,.18);
+		}
+			.portfolio-project:hover {
+				top: -2px;
+				box-shadow: 0 7px 6px rgba(0,0,0,.26);
+			}
+			.portfolio-thumb {
+				width: 100%;
+				height: 250px;
+			}
+			.portfolio-info {
+				width: 100%;
+				font-size: .9em;
+				line-height: 1.5em;
+				padding: 1.5em;
+			}
+				.portfolio-info p.more-info {
+					color: #1e7095;
+				}
 
 
 
